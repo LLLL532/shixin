@@ -1,0 +1,272 @@
+/*复位样式*/
+body, a, textarea, input { font-family:SourceHanSans,Microsoft YaHei,"瀹嬩綋", Verdana, Geneva, sans-serif; color: #333; }
+html, body,div, dl, dt, dd, ul, ol, li, p, h1, h2, h3, h4, h5, h6, th, td, hr, blockquote { padding: 0; margin: 0; }
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+
+/*公共样式*/
+html,body {
+	font-size: 20px;
+}
+.main h1 {
+	font-size: 0.9rem;
+	font-weight: normal;
+	text-align: center;
+}
+.main p {
+	font-size: 0.675rem;
+}
+.main img {
+	width: 100%;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.w {
+	width: 20rem;
+	margin: 0 auto;
+} 
+.btn {
+	width: 4rem;
+	height: 1.2rem;
+	border-radius: 0 0.6rem 0 0.6rem;
+	background-color: #74c5be;
+	text-align: center;
+	line-height: 1.2rem;
+	color: #fff;
+}
+.swiper-container {
+	position: static;
+	width: 100%;
+}
+/*首页样式*/
+.header {
+	width: 100%;
+	height: 3rem;
+}
+.header .logo img {
+	height: 3rem;
+	width: 7.2rem;
+}
+.header .call {
+	margin-top: 0.5rem;
+	width: 1.55rem;
+}
+.banner .list {
+	width: 200%;
+}
+.banner .list li {
+	float: left;
+}
+
+.nav {
+	margin-top: 1.75rem;
+	overflow: hidden;
+}
+.nav ul li {
+	width: 5rem;
+	float: left;
+	margin-bottom: 1.5rem;
+}
+.nav ul li img {
+	display: block;
+	width: 2rem;
+	height: 2rem;
+	margin-bottom: 0.5rem;
+	margin: 0rem auto 0.5rem auto;
+}
+.nav ul li p {
+	text-align: center;
+}
+
+.recomend {
+	width: 100%;
+}
+.recomend .recommend-nav {
+	width: 10rem;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	margin: 0 auto;
+}
+.recomend .recommend-nav .video {
+	margin-left: 1.1rem;
+}
+.recomend .recommend-nav .cur {
+	background-color: #ee8fb3;
+}
+.recomend .content {
+	margin-top: 1.4rem;
+	margin-bottom: 1.4rem;
+	border: 1px solid #ccc;
+}
+.recomend .content ul {
+	margin: 0.3rem;
+	font-size: 0.5rem;
+}
+.recomend .content ul li {
+	margin-bottom: 0.5rem;
+	width: 100%;
+}
+.recomend .content ul li i {
+	display: inline-block;
+	width: 0.2rem;
+	height: 0.2rem;
+	background-color: #74c5be;
+	border-radius: 50%;
+}
+.recomend .content ul li span {
+
+}
+
+.introduce .title {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 9rem;
+}
+.introduce .title h1 {
+	display: inline-block;
+	margin-left: 0.5rem;
+}
+.introduce .title span {
+	display: inline-block;
+	width: 1.5rem;
+	height: 2px;
+	background-color: #000;
+	margin-top: 0.6rem;
+	margin-left: 0.5rem;
+}
+.introduce p {
+	text-align: center;
+}
+.introduce-banner ul li {
+	width: 9.6rem;
+	float: left;
+	margin-left: 0.5rem;
+}
+.introduce-banner ul li img {
+	width: 100%;
+}
+.introduce .more {
+	width: 4.5rem;
+	margin: 1rem auto 2rem auto;
+}
+.introduce  .more img {
+	width: 100%;
+}
+
+.service .title {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 10rem;
+}
+.service .title h1 {
+	display: inline-block;
+	margin-left: 0.5rem;
+}
+.service .title span {
+	display: inline-block;
+	width: 1.5rem;
+	height: 2px;
+	background-color: #000;
+	margin-top: 0.6rem;
+	margin-left: 0.5rem;
+}
+.service p {
+	text-align: center;
+}
+.service ul {
+	overflow: hidden;
+}
+.service ul li {
+	width: 9.6rem;
+	position: relative;
+	float: left;
+	margin-left: 0.5rem;
+}
+.service ul li img {
+	width: 100%;
+}
+.service ul li .top {
+	position: absolute;
+	top: 0.2rem;
+	left: 0.2rem;
+}
+.service ul li .top p {
+	text-align: left;
+	color: #fff;
+}
+.service ul li .btn {
+	position: absolute;
+	bottom: 0.2rem;
+	left: 0.2rem;
+	font-size: 0.7rem;
+	background: none;
+	border: 2px solid #fff;
+}
+.service ul li {
+	list-style: none;
+}
+.service .center {
+	position: relative;
+}
+.service .center p {
+	text-align: left;
+	color: #fff;
+}
+.service .center .top {
+	position: absolute;
+	top: 0.2rem;
+	left: 0.2rem;
+}
+.service .center .btn {
+	position: absolute;
+	bottom: 0.2rem;
+	left: 0.2rem;
+	font-size: 0.7rem;
+	background: none;
+	border: 2px solid #fff;
+}
+
+.comment .title {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 10rem;
+}
+.comment .title h1 {
+	display: inline-block;
+	margin-left: 0.5rem;
+}
+.comment .title span {
+	display: inline-block;
+	width: 1.5rem;
+	height: 2px;
+	background-color: #000;
+	margin-top: 0.6rem;
+	margin-left: 0.5rem;
+}
+.comment p {
+	text-align: center;
+}
+.comment .comment-list {
+	width: 14rem;
+	margin: 1rem auto;
+}
+.comment .comment-list .cur {
+	background-color: #EE8FB3;
+}
+.comment .comment-list div {
+	margin-right: 0.5rem;
+}
+.comment .comment-con {
+	margin-top: 4rem;
+}
+.comment .comment-con p {
+	line-height: 1.3rem;
+}
